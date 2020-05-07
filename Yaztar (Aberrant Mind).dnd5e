@@ -7,8 +7,8 @@
 		<generationOption>1</generationOption>
 	</information>
 	<!-- display data -->
-	<display-properties favorite="false">
-		<name>Yaztar (testing)</name>
+	<display-properties favorite="true">
+		<name>Yaztar (Aberrent Mind)</name>
 		<race>Half-Elf</race>
 		<class>Sorcerer</class>
 		<archetype>
@@ -25,7 +25,7 @@
 	<!-- build data -->
 	<build>
 		<input>
-			<name>Yaztar (testing)</name>
+			<name>Yaztar (Aberrent Mind)</name>
 			<gender>Male</gender>
 			<player-name>Lux</player-name>
 			<experience>300</experience>
@@ -423,6 +423,8 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 			<element type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" />
 			<element type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" />
+			<element type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" />
+			<element type="Spell" id="ID_XGTE_SPELL_CHAOS_BOLT" />
 			<element type="Background" id="ID_COS_BACKGROUND_HAUNTED_ONE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
@@ -432,15 +434,13 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_GOOD" />
 			<element type="Deity" id="ID_WOTC_MTOF_DEITY_Eilistraee" />
 			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Spell" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" />
-			<element type="Spell" id="ID_XGTE_SPELL_CHAOS_BOLT" />
-			<element type="Spell" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />

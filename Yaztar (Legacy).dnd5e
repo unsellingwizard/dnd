@@ -7,8 +7,8 @@
 		<generationOption>1</generationOption>
 	</information>
 	<!-- display data -->
-	<display-properties favorite="false">
-		<name>Yaztar (testing)</name>
+	<display-properties favorite="true">
+		<name>Yaztar (Legacy)</name>
 		<race>Half-Elf</race>
 		<class>Sorcerer</class>
 		<archetype>
@@ -25,7 +25,7 @@
 	<!-- build data -->
 	<build>
 		<input>
-			<name>Yaztar (testing)</name>
+			<name>Yaztar (Legacy)</name>
 			<gender>Male</gender>
 			<player-name>Lux</player-name>
 			<experience>300</experience>
@@ -95,9 +95,9 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<constitution>15</constitution>
 			<intelligence>10</intelligence>
 			<wisdom>12</wisdom>
-			<charisma>14</charisma>
+			<charisma>16</charisma>
 		</abilities>
-		<elements level-count="2" registered-count="32">
+		<elements level-count="2" registered-count="30">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -105,7 +105,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			</element>
 			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="6,3,2,3,2,5,5,2,6,6,5,2,1,2,1,3,5,4,2,2">
 				<element type="Race" name="Race" requiredLevel="1" checksum="1597ef76" registered="ID_RACE_HALFELF">
-					<element type="Racial Trait" name="Ability Score Increase (Half-Elf)" requiredLevel="1" number="1" checksum="d4e0e506" registered="ID_RACIAL_TRAIT_HALFELF_WISDOM" />
+					<element type="Racial Trait" name="Ability Score Increase (Half-Elf)" requiredLevel="1" number="1" checksum="d4e0e506" registered="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE" />
 					<element type="Racial Trait" name="Ability Score Increase (Half-Elf)" requiredLevel="1" number="2" checksum="4de9b4bc" registered="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION" />
 					<element type="Language" name="Language (Half-Elf)" requiredLevel="1" checksum="7c5a7e44" registered="ID_LANGUAGE_UNDERCOMMON" />
 					<element type="Race Variant" name="Half-Elf Variant" requiredLevel="1" checksum="e2c4c8d1" registered="ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_DROW_DESCENT">
@@ -131,22 +131,20 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 					<element type="Proficiency" name="Saving Throw Proficiency (Constitution)" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
 					<element type="Proficiency" name="Saving Throw Proficiency (Charisma)" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
-						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="1" checksum="fd5e4c4c" registered="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
+						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="1" checksum="fd5e4c4c" registered="ID_PHB_SPELL_FIRE_BOLT" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="2" checksum="8bbb7571" registered="ID_PHB_SPELL_PRESTIDIGITATION" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="3" checksum="10c89fa5" registered="ID_PHB_SPELL_RAY_OF_FROST" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="4" checksum="6671070b" registered="ID_PHB_SPELL_SHOCKING_GRASP" />
-						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="1" checksum="7ba0def4" registered="ID_PHB_SPELL_WITCH_BOLT" />
-						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="2" checksum="b294c5f9" registered="ID_XGTE_SPELL_CHAOS_BOLT" />
-						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="2" checksum="05d89652" registered="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="1" checksum="7ba0def4" registered="ID_PHB_SPELL_MAGE_ARMOR" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="2" checksum="b294c5f9" registered="ID_PHB_SPELL_FALSE_LIFE" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="2" checksum="05d89652" registered="ID_PHB_SPELL_MAGIC_MISSILE" />
 					</element>
 					<element type="Class Feature" name="Sorcerous Origin" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
-						<element type="Archetype" name="Sorcerous Origin" requiredLevel="1" checksum="3ceb3b19" registered="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND">
-							<element type="Archetype Feature" name="Invasive Thoughts" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_INVASIVE_THOUGHTS" />
-							<element type="Archetype Feature" name="Psionic Spells" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS">
-								<element type="Spell" name="Arms of Hadar" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
-								<element type="Spell" name="Dissonant Whispers" id="ID_PHB_SPELL_DISSONANT_WHISPERS" />
+						<element type="Archetype" name="Sorcerous Origin" requiredLevel="1" checksum="3ceb3b19" registered="ID_WOTC_XGTE_SORCERER_ARCHETYPE_SHADOW_MAGIC">
+							<element type="Archetype Feature" name="Eyes of the Dark" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SHADOW_MAGIC_EYES_OF_THE_DARK">
+								<element type="Vision" name="Superior Darkvision" id="ID_VISION_SUPERIORDARKVISION" />
 							</element>
-							<element type="Archetype Feature" name="Warped Being" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
+							<element type="Archetype Feature" name="Strength of the Grave" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SHADOW_MAGIC_STRENGTH_OF_THE_GRAVE" />
 						</element>
 					</element>
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
@@ -174,12 +172,6 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 				<element type="Grants" name="Constitution Modifier" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			</element>
 			<element type="Level" name="2" id="ID_LEVEL_2" />
-			<element type="Item" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA">
-				<element type="Ability Score Improvement" name="Charisma" id="ID_INTERNAL_ASI_CHARISMA" />
-			</element>
-			<element type="Item" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA">
-				<element type="Ability Score Improvement" name="Charisma" id="ID_INTERNAL_ASI_CHARISMA" />
-			</element>
 		</elements>
 		<defenses>
 			<conditional>
@@ -374,26 +366,8 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 					</notes>
 				</details>
 			</item>
-			<item identifier="912c84a2-3955-4a32-acda-fc0fafea40e6" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" hidden="true">
-				<equipped>true</equipped>
-				<details card="false">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="db5544a7-6a74-4da8-a453-aa23e158b406" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" hidden="true">
-				<equipped>true</equipped>
-				<details card="false">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
 		</equipment>
-		<sum element-count="65">
+		<sum element-count="59">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -410,7 +384,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Language" id="ID_LANGUAGE_COMMON" />
 			<element type="Language" id="ID_LANGUAGE_ELVISH" />
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY" />
-			<element type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_WISDOM" />
+			<element type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE" />
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION" />
 			<element type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
 			<element type="Race Variant" id="ID_WOTC_SCAG_RACE_VARIANT_HALF_ELF_DROW_DESCENT" />
@@ -419,10 +393,12 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
-			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
+			<element type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
 			<element type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 			<element type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" />
 			<element type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" />
+			<element type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR" />
+			<element type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" />
 			<element type="Background" id="ID_COS_BACKGROUND_HAUNTED_ONE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
@@ -432,15 +408,9 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_GOOD" />
 			<element type="Deity" id="ID_WOTC_MTOF_DEITY_Eilistraee" />
 			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
-			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
-			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
-			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" />
-			<element type="Spell" id="ID_XGTE_SPELL_CHAOS_BOLT" />
-			<element type="Spell" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -453,28 +423,24 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
-			<element type="Archetype" id="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND" />
-			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_INVASIVE_THOUGHTS" />
-			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS" />
-			<element type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
-			<element type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" />
-			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
+			<element type="Archetype" id="ID_WOTC_XGTE_SORCERER_ARCHETYPE_SHADOW_MAGIC" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SHADOW_MAGIC_EYES_OF_THE_DARK" />
+			<element type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_SHADOW_MAGIC_STRENGTH_OF_THE_GRAVE" />
 		</sum>
 		<magic>
 			<spellcasting name="Sorcerer" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
 				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
-					<spell name="Mind Sliver" level="0" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
+					<spell name="Fire Bolt" level="0" id="ID_PHB_SPELL_FIRE_BOLT" />
 					<spell name="Prestidigitation" level="0" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 					<spell name="Ray of Frost" level="0" id="ID_PHB_SPELL_RAY_OF_FROST" />
 					<spell name="Shocking Grasp" level="0" id="ID_PHB_SPELL_SHOCKING_GRASP" />
 				</cantrips>
 				<spells>
-					<spell name="Arms of Hadar" level="1" id="ID_PHB_SPELL_ARMS_OF_HADAR" known="true" />
-					<spell name="Chaos Bolt" level="1" id="ID_XGTE_SPELL_CHAOS_BOLT" known="true" />
-					<spell name="Dissonant Whispers" level="1" id="ID_PHB_SPELL_DISSONANT_WHISPERS" known="true" />
-					<spell name="Id Insinuation" level="1" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" known="true" />
-					<spell name="Witch Bolt" level="1" id="ID_PHB_SPELL_WITCH_BOLT" known="true" />
+					<spell name="False Life" level="1" id="ID_PHB_SPELL_FALSE_LIFE" known="true" />
+					<spell name="Mage Armor" level="1" id="ID_PHB_SPELL_MAGE_ARMOR" known="true" />
+					<spell name="Magic Missile" level="1" id="ID_PHB_SPELL_MAGIC_MISSILE" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>
