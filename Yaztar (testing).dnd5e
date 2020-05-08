@@ -10,11 +10,11 @@
 	<display-properties favorite="false">
 		<name>Yaztar (testing)</name>
 		<race>Half-Elf</race>
-		<class>Sorcerer</class>
+		<class>Sorcerer (4) / Warlock (1)</class>
 		<archetype>
 		</archetype>
 		<background>Haunted One</background>
-		<level>2</level>
+		<level>5</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,16 +28,16 @@
 			<name>Yaztar (testing)</name>
 			<gender>Male</gender>
 			<player-name>Lux</player-name>
-			<experience>300</experience>
+			<experience>6500</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
-				<attack identifier="9acfa37d-f799-4672-9846-420376247c4a" name="Quarterstaff" range="5 ft" attack="+3 vs AC" damage="1d6+1 bludgeoning" displayed="true" ability="Strength">
+				<attack identifier="9acfa37d-f799-4672-9846-420376247c4a" name="Quarterstaff" range="5 ft" attack="+4 vs AC" damage="1d6+1 bludgeoning" displayed="true" ability="Strength">
 					<description><![CDATA[Versatile]]></description>
 				</attack>
-				<attack identifier="8a74fcf8-4b8f-42fe-9113-9663e72164ed" name="Dagger" range="20/60" attack="+3 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="8a74fcf8-4b8f-42fe-9113-9663e72164ed" name="Dagger" range="20/60" attack="+4 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
-				<attack identifier="950bc8c3-dcf6-45e9-b35e-cbbecb32547f" name="Dagger" range="20/60" attack="+3 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="950bc8c3-dcf6-45e9-b35e-cbbecb32547f" name="Dagger" range="20/60" attack="+4 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
 			</attacks>
@@ -97,7 +97,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<wisdom>12</wisdom>
 			<charisma>14</charisma>
 		</abilities>
-		<elements level-count="2" registered-count="32">
+		<elements level-count="5" registered-count="41">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -112,6 +112,8 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 						<element type="Grants" name="Half-Elf Variant" id="ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF" />
 						<element type="Racial Trait" name="Drow Magic" id="ID_RACIAL_TRAIT_DROW_MAGIC">
 							<element type="Spell" name="Dancing Lights" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+							<element type="Spell" name="Faerie Fire" id="ID_PHB_SPELL_FAERIE_FIRE" />
+							<element type="Spell" name="Darkness" id="ID_PHB_SPELL_DARKNESS" />
 						</element>
 					</element>
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
@@ -135,9 +137,13 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="2" checksum="8bbb7571" registered="ID_PHB_SPELL_PRESTIDIGITATION" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="3" checksum="10c89fa5" registered="ID_PHB_SPELL_RAY_OF_FROST" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="4" checksum="6671070b" registered="ID_PHB_SPELL_SHOCKING_GRASP" />
+						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="4" checksum="157db734" registered="" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="1" checksum="7ba0def4" registered="ID_PHB_SPELL_WITCH_BOLT" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="2" checksum="b294c5f9" registered="ID_XGTE_SPELL_CHAOS_BOLT" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="2" checksum="05d89652" registered="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="3" checksum="2ff0ae30" registered="ID_WOTC_UA20200414_SPELL_MIND_THRUST" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="4" checksum="f928071e" registered="" />
+						<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 					</element>
 					<element type="Class Feature" name="Sorcerous Origin" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
 						<element type="Archetype" name="Sorcerous Origin" requiredLevel="1" checksum="3ceb3b19" registered="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND">
@@ -145,12 +151,23 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 							<element type="Archetype Feature" name="Psionic Spells" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS">
 								<element type="Spell" name="Arms of Hadar" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
 								<element type="Spell" name="Dissonant Whispers" id="ID_PHB_SPELL_DISSONANT_WHISPERS" />
+								<element type="Spell" name="Calm Emotions" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+								<element type="Spell" name="Detect Thoughts" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 							</element>
 							<element type="Archetype Feature" name="Warped Being" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
 						</element>
 					</element>
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 					<element type="Class Feature" name="Font of Magic" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+					<element type="Class Feature" name="Metamagic" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC">
+						<element type="Class Feature" name="Metamagic" requiredLevel="3" number="1" checksum="54b3e352" registered="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL" />
+						<element type="Class Feature" name="Metamagic" requiredLevel="3" number="2" checksum="cdbab2e8" registered="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
+					</element>
+					<element type="Class Feature" name="Ability Score Improvement" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
+						<element type="Class Feature" name="Improvement Option (Sorcerer 4)" requiredLevel="4" checksum="6ba80e0d" registered="ID_INTERNAL_CLASS_FEATURE_FEAT_4_SORCERER">
+							<element type="Feat" name="Feat (SORCERER 4)" requiredLevel="4" checksum="c364a900" registered="" />
+						</element>
+					</element>
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_COS_BACKGROUND_HAUNTED_ONE">
 					<element type="Proficiency" name="Skill Proficiency (Haunted One)" requiredLevel="1" number="1" checksum="30603ee4" registered="ID_PROFICIENCY_SKILL_SURVIVAL" />
@@ -174,6 +191,93 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 				<element type="Grants" name="Constitution Modifier" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			</element>
 			<element type="Level" name="2" id="ID_LEVEL_2" />
+			<element type="Level" name="3" id="ID_LEVEL_3" />
+			<element type="Level" name="4" id="ID_LEVEL_4" />
+			<element type="Level" name="5" id="ID_LEVEL_5" multiclass="true" starting="true" rndhp="6,7,7,8,7,4,6,4,8,2,4,1,6,3,6,7,2,1,5,4" class="ID_WOTC_PHB_MULTICLASS_WARLOCK">
+				<element type="Multiclass" name="Multiclass (Level 5)" requiredLevel="5" checksum="24ace93b" registered="ID_WOTC_PHB_MULTICLASS_WARLOCK">
+					<element type="Class Feature" name="Otherworldly Patron" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
+						<element type="Archetype" name="Otherworldly Patron" requiredLevel="1" checksum="ae5999d2" registered="ID_WOTC_XGTE_ARCHETYPE_HEXBLADE">
+							<element type="Archetype Feature" name="Expanded Spell List" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_EXPANDED_SPELL_LIST" />
+							<element type="Archetype Feature" name="Hexblade’s Curse" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEXBLADES_CURSE" />
+							<element type="Archetype Feature" name="Hex Warrior" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEX_WARRIOR">
+								<element type="Proficiency" name="Armor Proficiency (Medium Armor)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
+									<element type="Proficiency" name="Armor Proficiency (Hide)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE" />
+									<element type="Proficiency" name="Armor Proficiency (Chain Shirt)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
+									<element type="Proficiency" name="Armor Proficiency (Scale Mail)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL" />
+									<element type="Proficiency" name="Armor Proficiency (Breastplate)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE" />
+									<element type="Proficiency" name="Armor Proficiency (Half Plate)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE" />
+									<element type="Proficiency" name="Armor Proficiency (Spiked Armor)" id="ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR" />
+								</element>
+								<element type="Proficiency" name="Armor Proficiency (Shields)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS">
+									<element type="Proficiency" name="Armor Proficiency (Shield)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+								</element>
+								<element type="Proficiency" name="Weapon Proficiency (Martial Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
+									<element type="Proficiency" name="Weapon Proficiency (Martial Melee Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+										<element type="Proficiency" name="Weapon Proficiency (Battleaxe)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+										<element type="Proficiency" name="Weapon Proficiency (Flail)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+										<element type="Proficiency" name="Weapon Proficiency (Glaive)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+										<element type="Proficiency" name="Weapon Proficiency (Greataxe)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+										<element type="Proficiency" name="Weapon Proficiency (Greatsword)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+										<element type="Proficiency" name="Weapon Proficiency (Halberd)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+										<element type="Proficiency" name="Weapon Proficiency (Lance)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+										<element type="Proficiency" name="Weapon Proficiency (Longsword)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+										<element type="Proficiency" name="Weapon Proficiency (Maul)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+										<element type="Proficiency" name="Weapon Proficiency (Morningstar)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Pike)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+										<element type="Proficiency" name="Weapon Proficiency (Rapier)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+										<element type="Proficiency" name="Weapon Proficiency (Scimitar)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Shortsword)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+										<element type="Proficiency" name="Weapon Proficiency (Trident)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+										<element type="Proficiency" name="Weapon Proficiency (War Pick)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+										<element type="Proficiency" name="Weapon Proficiency (Warhammer)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+										<element type="Proficiency" name="Weapon Proficiency (Whip)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+										<element type="Proficiency" name="Weapon Proficiency (Double-Bladed Scimitar)" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Chakram)" id="ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM" />
+										<element type="Proficiency" name="Weapon Proficiency (Double-Bladed Scimitar)" id="ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Katana)" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+									</element>
+									<element type="Proficiency" name="Weapon Proficiency (Martial Ranged Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+										<element type="Proficiency" name="Weapon Proficiency (Blowgun)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+										<element type="Proficiency" name="Weapon Proficiency (Crossbow, Hand)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+										<element type="Proficiency" name="Weapon Proficiency (Crossbow, Heavy)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+										<element type="Proficiency" name="Weapon Proficiency (Longbow)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+										<element type="Proficiency" name="Weapon Proficiency (Net)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+										<element type="Proficiency" name="Weapon Proficiency (Lasso)" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
+									</element>
+								</element>
+							</element>
+						</element>
+					</element>
+					<element type="Class Feature" name="Pact Magic" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="1" checksum="1cce901d" registered="" />
+						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="2" checksum="6a2ba920" registered="" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="" />
+						<element type="Grants" name="Multiclass Spellcasting Slots Solo" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" />
+					</element>
+					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
+					<element type="Proficiency" name="Armor Proficiency (Light Armor)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
+						<element type="Proficiency" name="Armor Proficiency (Padded)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
+						<element type="Proficiency" name="Armor Proficiency (Leather)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER" />
+						<element type="Proficiency" name="Armor Proficiency (Studded Leather)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER" />
+					</element>
+					<element type="Proficiency" name="Weapon Proficiency (Simple Melee Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+						<element type="Proficiency" name="Weapon Proficiency (Club)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+						<element type="Proficiency" name="Weapon Proficiency (Dagger)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+						<element type="Proficiency" name="Weapon Proficiency (Greatclub)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
+						<element type="Proficiency" name="Weapon Proficiency (Handaxe)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+						<element type="Proficiency" name="Weapon Proficiency (Javelin)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+						<element type="Proficiency" name="Weapon Proficiency (Light Hammer)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+						<element type="Proficiency" name="Weapon Proficiency (Mace)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+						<element type="Proficiency" name="Weapon Proficiency (Quarterstaff)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+						<element type="Proficiency" name="Weapon Proficiency (Sickle)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" />
+						<element type="Proficiency" name="Weapon Proficiency (Spear)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+						<element type="Proficiency" name="Weapon Proficiency (Unarmed Strike)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
+						<element type="Proficiency" name="Weapon Proficiency (Scythe)" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
+					</element>
+				</element>
+				<element type="Grants" name="Multiclassing (Level 5)" id="ID_INTERNAL_MULTICLASS_LEVEL_5" />
+			</element>
 			<element type="Item" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA">
 				<element type="Ability Score Improvement" name="Charisma" id="ID_INTERNAL_ASI_CHARISMA" />
 			</element>
@@ -393,7 +497,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="65">
+		<sum element-count="146">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -417,12 +521,16 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Grants" id="ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF" />
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
 			<element type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+			<element type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
+			<element type="Spell" id="ID_PHB_SPELL_DARKNESS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
 			<element type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 			<element type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" />
 			<element type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" />
+			<element type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" />
+			<element type="Spell" id="ID_XGTE_SPELL_CHAOS_BOLT" />
 			<element type="Background" id="ID_COS_BACKGROUND_HAUNTED_ONE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
@@ -432,15 +540,18 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_GOOD" />
 			<element type="Deity" id="ID_WOTC_MTOF_DEITY_Eilistraee" />
 			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Spell" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" />
-			<element type="Spell" id="ID_XGTE_SPELL_CHAOS_BOLT" />
-			<element type="Spell" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_5" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -450,19 +561,93 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
+			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
 			<element type="Archetype" id="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_INVASIVE_THOUGHTS" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS" />
 			<element type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
 			<element type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" />
+			<element type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+			<element type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_SORCERER" />
+			<element type="Multiclass" id="ID_WOTC_PHB_MULTICLASS_WARLOCK" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
+			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" />
+			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
+			<element type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
+			<element type="Archetype" id="ID_WOTC_XGTE_ARCHETYPE_HEXBLADE" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_EXPANDED_SPELL_LIST" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEXBLADES_CURSE" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEX_WARRIOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE" />
+			<element type="Proficiency" id="ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+			<element type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+			<element type="Proficiency" id="ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM" />
+			<element type="Proficiency" id="ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+			<element type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+			<element type="Proficiency" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
 		</sum>
-		<magic>
-			<spellcasting name="Sorcerer" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
-				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+		<magic multiclass="true" level="4">
+			<spellcasting name="Sorcerer" ability="Charisma" attack="7" dc="15" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
+				<slots s1="4" s2="3" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Mind Sliver" level="0" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
 					<spell name="Prestidigitation" level="0" id="ID_PHB_SPELL_PRESTIDIGITATION" />
@@ -475,10 +660,20 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 					<spell name="Dissonant Whispers" level="1" id="ID_PHB_SPELL_DISSONANT_WHISPERS" known="true" />
 					<spell name="Id Insinuation" level="1" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" known="true" />
 					<spell name="Witch Bolt" level="1" id="ID_PHB_SPELL_WITCH_BOLT" known="true" />
+					<spell name="Calm Emotions" level="2" id="ID_PHB_SPELL_CALM_EMOTIONS" known="true" />
+					<spell name="Detect Thoughts" level="2" id="ID_PHB_SPELL_DETECT_THOUGHTS" known="true" />
+					<spell name="Mind Thrust" level="2" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST" known="true" />
 				</spells>
+			</spellcasting>
+			<spellcasting name="Warlock" ability="Charisma" attack="7" dc="15" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+				<slots s1="1" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+				<cantrips />
+				<spells />
 			</spellcasting>
 			<additional>
 				<spell name="Dancing Lights" level="0" id="ID_PHB_SPELL_DANCING_LIGHTS" source="Drow Magic" />
+				<spell name="Faerie Fire" level="1" id="ID_PHB_SPELL_FAERIE_FIRE" source="Drow Magic" />
+				<spell name="Darkness" level="2" id="ID_PHB_SPELL_DARKNESS" source="Drow Magic" />
 			</additional>
 		</magic>
 	</build>
