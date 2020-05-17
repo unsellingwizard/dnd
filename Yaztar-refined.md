@@ -18,3 +18,4 @@ In the hopes of figuring out what in the world happened to me down in that alcov
 
 This journal is the same one that I have been writing in since I first started reading as a child, it has all the notes that I've ever taken on magic.
 Whenever I cast my magic my new tattoos move and start glowing along with my eyes.
+Multiclassed to warloc becase in order to seek a higher understanding of magic

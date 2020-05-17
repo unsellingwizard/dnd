@@ -14,7 +14,7 @@
 		<archetype>
 		</archetype>
 		<background>Haunted One</background>
-		<level>2</level>
+		<level>3</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,7 +28,7 @@
 			<name>Yaztar (Aberrent Mind)</name>
 			<gender>Male</gender>
 			<player-name>Lux</player-name>
-			<experience>300</experience>
+			<experience>900</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
 				<attack identifier="9acfa37d-f799-4672-9846-420376247c4a" name="Quarterstaff" range="5 ft" attack="+3 vs AC" damage="1d6+1 bludgeoning" displayed="true" ability="Strength">
@@ -97,7 +97,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<wisdom>12</wisdom>
 			<charisma>14</charisma>
 		</abilities>
-		<elements level-count="2" registered-count="32">
+		<elements level-count="3" registered-count="36">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -112,6 +112,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 						<element type="Grants" name="Half-Elf Variant" id="ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF" />
 						<element type="Racial Trait" name="Drow Magic" id="ID_RACIAL_TRAIT_DROW_MAGIC">
 							<element type="Spell" name="Dancing Lights" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+							<element type="Spell" name="Faerie Fire" id="ID_PHB_SPELL_FAERIE_FIRE" />
 						</element>
 					</element>
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
@@ -138,6 +139,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="1" checksum="7ba0def4" registered="ID_PHB_SPELL_WITCH_BOLT" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="2" checksum="b294c5f9" registered="ID_XGTE_SPELL_CHAOS_BOLT" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="2" checksum="05d89652" registered="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="3" checksum="2ff0ae30" registered="ID_WOTC_UA20200414_SPELL_MIND_THRUST" />
 					</element>
 					<element type="Class Feature" name="Sorcerous Origin" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
 						<element type="Archetype" name="Sorcerous Origin" requiredLevel="1" checksum="3ceb3b19" registered="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND">
@@ -145,12 +147,18 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 							<element type="Archetype Feature" name="Psionic Spells" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS">
 								<element type="Spell" name="Arms of Hadar" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
 								<element type="Spell" name="Dissonant Whispers" id="ID_PHB_SPELL_DISSONANT_WHISPERS" />
+								<element type="Spell" name="Calm Emotions" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+								<element type="Spell" name="Detect Thoughts" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 							</element>
 							<element type="Archetype Feature" name="Warped Being" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
 						</element>
 					</element>
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 					<element type="Class Feature" name="Font of Magic" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+					<element type="Class Feature" name="Metamagic" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC">
+						<element type="Class Feature" name="Metamagic" requiredLevel="3" number="1" checksum="54b3e352" registered="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL" />
+						<element type="Class Feature" name="Metamagic" requiredLevel="3" number="2" checksum="cdbab2e8" registered="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
+					</element>
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_COS_BACKGROUND_HAUNTED_ONE">
 					<element type="Proficiency" name="Skill Proficiency (Haunted One)" requiredLevel="1" number="1" checksum="30603ee4" registered="ID_PROFICIENCY_SKILL_SURVIVAL" />
@@ -174,6 +182,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 				<element type="Grants" name="Constitution Modifier" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			</element>
 			<element type="Level" name="2" id="ID_LEVEL_2" />
+			<element type="Level" name="3" id="ID_LEVEL_3" />
 			<element type="Item" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA">
 				<element type="Ability Score Improvement" name="Charisma" id="ID_INTERNAL_ASI_CHARISMA" />
 			</element>
@@ -374,6 +383,14 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 					</notes>
 				</details>
 			</item>
+			<item identifier="ac0e09d5-6b53-4e1f-bda5-ef403fe93bbb" name="Potion of Healing" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_HEALING" amount="3">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 			<item identifier="912c84a2-3955-4a32-acda-fc0fafea40e6" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" hidden="true">
 				<equipped>true</equipped>
 				<details card="false">
@@ -393,7 +410,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="65">
+		<sum element-count="73">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -417,6 +434,7 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Grants" id="ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF" />
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
 			<element type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
+			<element type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
@@ -441,6 +459,8 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -453,16 +473,21 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" />
 			<element type="Archetype" id="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_INVASIVE_THOUGHTS" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS" />
 			<element type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
 			<element type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" />
+			<element type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+			<element type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
 		</sum>
 		<magic>
 			<spellcasting name="Sorcerer" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
-				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+				<slots s1="4" s2="2" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Mind Sliver" level="0" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
 					<spell name="Prestidigitation" level="0" id="ID_PHB_SPELL_PRESTIDIGITATION" />
@@ -475,10 +500,14 @@ I refuse to become a victim, and I will not allow others to be victimized.</back
 					<spell name="Dissonant Whispers" level="1" id="ID_PHB_SPELL_DISSONANT_WHISPERS" known="true" />
 					<spell name="Id Insinuation" level="1" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" known="true" />
 					<spell name="Witch Bolt" level="1" id="ID_PHB_SPELL_WITCH_BOLT" known="true" />
+					<spell name="Calm Emotions" level="2" id="ID_PHB_SPELL_CALM_EMOTIONS" known="true" />
+					<spell name="Detect Thoughts" level="2" id="ID_PHB_SPELL_DETECT_THOUGHTS" known="true" />
+					<spell name="Mind Thrust" level="2" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>
 				<spell name="Dancing Lights" level="0" id="ID_PHB_SPELL_DANCING_LIGHTS" source="Drow Magic" />
+				<spell name="Faerie Fire" level="1" id="ID_PHB_SPELL_FAERIE_FIRE" source="Drow Magic" />
 			</additional>
 		</magic>
 	</build>
