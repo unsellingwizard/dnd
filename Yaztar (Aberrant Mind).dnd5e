@@ -96,7 +96,7 @@
 			<wisdom>12</wisdom>
 			<charisma>14</charisma>
 		</abilities>
-		<elements level-count="4" registered-count="44">
+		<elements level-count="4" registered-count="42">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -186,13 +186,54 @@
 			<element type="Level" name="4" id="ID_LEVEL_4" multiclass="true" starting="true" rndhp="5,4,3,8,3,6,6,1,5,5,6,5,2,3,8,5,3,8,3,4" class="ID_WOTC_PHB_MULTICLASS_WARLOCK">
 				<element type="Multiclass" name="Multiclass (Level 4)" requiredLevel="4" checksum="964aa9ff" registered="ID_WOTC_PHB_MULTICLASS_WARLOCK">
 					<element type="Class Feature" name="Otherworldly Patron" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON">
-						<element type="Archetype" name="Otherworldly Patron" requiredLevel="1" checksum="ae5999d2" registered="ID_GFP_COFSA_ARCHETYPE_OTHERWORLDLY_PATRON_ACCURSED_ARCHIVE">
-							<element type="Archetype Feature" name="Expanded Spell List" id="ID_GFP_COFSA_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_EXPANDED_SPELL_LIST" />
-							<element type="Archetype Feature" name="Tainted Knowledge" id="ID_GFP_COFSA_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_TAINTEDKNOWLEDGE">
-								<element type="Proficiency" name="Skill Proficiency (Tainted Knowledge)" requiredLevel="1" checksum="fae802e7" registered="ID_PROFICIENCY_SKILL_PERCEPTION" />
-								<element type="Archetype Feature" name="Tainted Knowledge" id="ID_GFP_COFSA_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_TAINTEDKNOWLEDGE_EXPERTISE">
-									<element type="Class Feature" name="Tainted Knowledge" requiredLevel="1" number="1" checksum="1d143ff4" registered="ID_EXPERTISE_SKILL_ARCANA" />
-									<element type="Class Feature" name="Tainted Knowledge" requiredLevel="1" number="2" checksum="841d6e4e" registered="" />
+						<element type="Archetype" name="Otherworldly Patron" requiredLevel="1" checksum="ae5999d2" registered="ID_WOTC_XGTE_ARCHETYPE_HEXBLADE">
+							<element type="Archetype Feature" name="Expanded Spell List" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_EXPANDED_SPELL_LIST" />
+							<element type="Archetype Feature" name="Hexblade’s Curse" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEXBLADES_CURSE" />
+							<element type="Archetype Feature" name="Hex Warrior" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEX_WARRIOR">
+								<element type="Proficiency" name="Armor Proficiency (Medium Armor)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
+									<element type="Proficiency" name="Armor Proficiency (Hide)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE" />
+									<element type="Proficiency" name="Armor Proficiency (Chain Shirt)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
+									<element type="Proficiency" name="Armor Proficiency (Scale Mail)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL" />
+									<element type="Proficiency" name="Armor Proficiency (Breastplate)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE" />
+									<element type="Proficiency" name="Armor Proficiency (Half Plate)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE" />
+									<element type="Proficiency" name="Armor Proficiency (Spiked Armor)" id="ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR" />
+								</element>
+								<element type="Proficiency" name="Armor Proficiency (Shields)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS">
+									<element type="Proficiency" name="Armor Proficiency (Shield)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+								</element>
+								<element type="Proficiency" name="Weapon Proficiency (Martial Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
+									<element type="Proficiency" name="Weapon Proficiency (Martial Melee Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+										<element type="Proficiency" name="Weapon Proficiency (Battleaxe)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+										<element type="Proficiency" name="Weapon Proficiency (Flail)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+										<element type="Proficiency" name="Weapon Proficiency (Glaive)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+										<element type="Proficiency" name="Weapon Proficiency (Greataxe)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+										<element type="Proficiency" name="Weapon Proficiency (Greatsword)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+										<element type="Proficiency" name="Weapon Proficiency (Halberd)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+										<element type="Proficiency" name="Weapon Proficiency (Lance)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+										<element type="Proficiency" name="Weapon Proficiency (Longsword)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+										<element type="Proficiency" name="Weapon Proficiency (Maul)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+										<element type="Proficiency" name="Weapon Proficiency (Morningstar)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Pike)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+										<element type="Proficiency" name="Weapon Proficiency (Rapier)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+										<element type="Proficiency" name="Weapon Proficiency (Scimitar)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Shortsword)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+										<element type="Proficiency" name="Weapon Proficiency (Trident)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+										<element type="Proficiency" name="Weapon Proficiency (War Pick)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+										<element type="Proficiency" name="Weapon Proficiency (Warhammer)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+										<element type="Proficiency" name="Weapon Proficiency (Whip)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+										<element type="Proficiency" name="Weapon Proficiency (Double-Bladed Scimitar)" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Chakram)" id="ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM" />
+										<element type="Proficiency" name="Weapon Proficiency (Double-Bladed Scimitar)" id="ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+										<element type="Proficiency" name="Weapon Proficiency (Katana)" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+									</element>
+									<element type="Proficiency" name="Weapon Proficiency (Martial Ranged Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+										<element type="Proficiency" name="Weapon Proficiency (Blowgun)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+										<element type="Proficiency" name="Weapon Proficiency (Crossbow, Hand)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+										<element type="Proficiency" name="Weapon Proficiency (Crossbow, Heavy)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+										<element type="Proficiency" name="Weapon Proficiency (Longbow)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+										<element type="Proficiency" name="Weapon Proficiency (Net)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+										<element type="Proficiency" name="Weapon Proficiency (Lasso)" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
+									</element>
 								</element>
 							</element>
 						</element>
@@ -200,7 +241,7 @@
 					<element type="Class Feature" name="Pact Magic" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="1" checksum="1cce901d" registered="ID_PHB_SPELL_ELDRITCH_BLAST" />
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="2" checksum="6a2ba920" registered="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_PHB_SPELL_INFLICT_WOUNDS" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_HEX" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Solo" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" />
 					</element>
@@ -453,8 +494,16 @@
 					</notes>
 				</details>
 			</item>
+			<item identifier="2fa674fd-550c-4ec8-95ac-6304ca5dd562" name="Rapier" id="ID_WOTC_PHB_WEAPON_RAPIER">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="107">
+		<sum element-count="145">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -498,19 +547,18 @@
 			<element type="Spell" id="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
+			<element type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
+			<element type="Spell" id="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
+			<element type="Spell" id="ID_PHB_SPELL_HEX" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
-			<element type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" />
-			<element type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
-			<element type="Spell" id="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
-			<element type="Spell" id="ID_PHB_SPELL_HEX" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			<element type="Spell" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -557,11 +605,50 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
 			<element type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
-			<element type="Archetype" id="ID_GFP_COFSA_ARCHETYPE_OTHERWORLDLY_PATRON_ACCURSED_ARCHIVE" />
-			<element type="Archetype Feature" id="ID_GFP_COFSA_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_EXPANDED_SPELL_LIST" />
-			<element type="Archetype Feature" id="ID_GFP_COFSA_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_TAINTEDKNOWLEDGE" />
-			<element type="Archetype Feature" id="ID_GFP_COFSA_ARCHETYPE_FEATURE_ACCURSED_ARCHIVE_TAINTEDKNOWLEDGE_EXPERTISE" />
-			<element type="Class Feature" id="ID_EXPERTISE_SKILL_ARCANA" />
+			<element type="Archetype" id="ID_WOTC_XGTE_ARCHETYPE_HEXBLADE" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_EXPANDED_SPELL_LIST" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEXBLADES_CURSE" />
+			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEX_WARRIOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE" />
+			<element type="Proficiency" id="ID_SCAG_PROFICIENCY_ARMOR_PROFICIENCY_SPIKED_ARMOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" />
+			<element type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+			<element type="Proficiency" id="ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM" />
+			<element type="Proficiency" id="ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+			<element type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
+			<element type="Proficiency" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
 		</sum>
 		<magic multiclass="true" level="3">
 			<spellcasting name="Sorcerer" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
@@ -590,8 +677,8 @@
 					<spell name="Shadowthorn" level="0" id="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
 				</cantrips>
 				<spells>
+					<spell name="Healing Elixir" level="1" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" known="true" />
 					<spell name="Hex" level="1" id="ID_PHB_SPELL_HEX" known="true" />
-					<spell name="Inflict Wounds" level="1" id="ID_PHB_SPELL_INFLICT_WOUNDS" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>
