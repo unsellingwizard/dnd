@@ -10,11 +10,11 @@
 	<display-properties favorite="true">
 		<name>Yaztar (Aberrent Mind)</name>
 		<race>Half-Elf</race>
-		<class>Sorcerer (3) / Warlock (1)</class>
+		<class>Sorcerer (4) / Warlock (1)</class>
 		<archetype>
 		</archetype>
 		<background>Haunted One</background>
-		<level>4</level>
+		<level>5</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,17 +28,20 @@
 			<name>Yaztar (Aberrent Mind)</name>
 			<gender>Male</gender>
 			<player-name>Lux</player-name>
-			<experience>2700</experience>
+			<experience>6500</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
-				<attack identifier="9acfa37d-f799-4672-9846-420376247c4a" name="Quarterstaff" range="5 ft" attack="+3 vs AC" damage="1d6+1 bludgeoning" displayed="true" ability="Strength">
+				<attack identifier="9acfa37d-f799-4672-9846-420376247c4a" name="Quarterstaff" range="5 ft" attack="+4 vs AC" damage="1d6+1 bludgeoning" displayed="true" ability="Strength">
 					<description><![CDATA[Versatile]]></description>
 				</attack>
-				<attack identifier="8a74fcf8-4b8f-42fe-9113-9663e72164ed" name="Dagger" range="20/60" attack="+3 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="8a74fcf8-4b8f-42fe-9113-9663e72164ed" name="Dagger" range="20/60" attack="+4 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
-				<attack identifier="950bc8c3-dcf6-45e9-b35e-cbbecb32547f" name="Dagger" range="20/60" attack="+3 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="950bc8c3-dcf6-45e9-b35e-cbbecb32547f" name="Dagger" range="20/60" attack="+4 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
+				</attack>
+				<attack identifier="2fa674fd-550c-4ec8-95ac-6304ca5dd562" name="Rapier" range="5 ft" attack="+4 vs AC" damage="1d8+1 piercing" displayed="true" ability="Strength">
+					<description><![CDATA[Finesse]]></description>
 				</attack>
 			</attacks>
 			<backstory><![CDATA[I used to be a slave to a powerful family in the Underdark. The slavers are probably now trying to find me. I ran away one day using a abandoned mine to escape to the surface near Waterdeep. On my way up I shimmied between two rocks entering into a small tight cavern that looked like it had never been entered in the center of the room was a crystal light purple in color with tiny specks of white glowing like stars suspended in it. Upon touching it my eyes lit up  purple glowing bright enough that you could have thought it was mid day had it not been for the purple color. Then tendrils of purple moved up my left arm from my hand holding the crystal a single tendril moved up my neck and face encircling my now purple eye which now slightly glows purple. In them mornings for an hour or two the tendrils move across my body and my eyes glow purple. I don't believe this magic is the purest that there is I feel different now I don't feel sorrow any more, and there is something inside me something I just don't understand and I fear that finding out what it is might drive me mad, but not finding out may also drive me mad, the thing inside me may also be the thing driving me mad I just don't know. I hope to someday be rid of the madness but I don't know if that is possible, I don't know if being sane is an option anymore for me. A part of the madness is the ever haunitng images of the hellish time that I spen in the underdark being used and abused.]]></backstory>
@@ -96,7 +99,7 @@
 			<wisdom>12</wisdom>
 			<charisma>14</charisma>
 		</abilities>
-		<elements level-count="4" registered-count="42">
+		<elements level-count="5" registered-count="49">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -112,6 +115,7 @@
 						<element type="Racial Trait" name="Drow Magic" id="ID_RACIAL_TRAIT_DROW_MAGIC">
 							<element type="Spell" name="Dancing Lights" id="ID_PHB_SPELL_DANCING_LIGHTS" />
 							<element type="Spell" name="Faerie Fire" id="ID_PHB_SPELL_FAERIE_FIRE" />
+							<element type="Spell" name="Darkness" id="ID_PHB_SPELL_DARKNESS" />
 						</element>
 					</element>
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
@@ -135,10 +139,12 @@
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="2" checksum="8bbb7571" registered="ID_PHB_SPELL_PRESTIDIGITATION" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="3" checksum="10c89fa5" registered="ID_PHB_SPELL_RAY_OF_FROST" />
 						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="1" number="4" checksum="6671070b" registered="ID_PHB_SPELL_SHOCKING_GRASP" />
+						<element type="Spell" name="Cantrip (Sorcerer)" requiredLevel="4" checksum="157db734" registered="ID_XGTE_SPELL_INFESTATION" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="1" checksum="7ba0def4" registered="ID_PHB_SPELL_WITCH_BOLT" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="1" number="2" checksum="b294c5f9" registered="ID_XGTE_SPELL_CHAOS_BOLT" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="2" checksum="05d89652" registered="ID_WOTC_UA20191125_SPELL_ID_INSINUATION" />
 						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="3" checksum="2ff0ae30" registered="ID_WOTC_UA20200414_SPELL_MIND_THRUST" />
+						<element type="Spell" name="Spell (Sorcerer)" requiredLevel="4" checksum="f928071e" registered="ID_PHB_SPELL_MISTY_STEP" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 					</element>
 					<element type="Class Feature" name="Sorcerous Origin" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN">
@@ -159,11 +165,18 @@
 						<element type="Class Feature" name="Metamagic" requiredLevel="3" number="1" checksum="54b3e352" registered="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL" />
 						<element type="Class Feature" name="Metamagic" requiredLevel="3" number="2" checksum="cdbab2e8" registered="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
 					</element>
+					<element type="Class Feature" name="Ability Score Improvement" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
+						<element type="Class Feature" name="Improvement Option (Sorcerer 4)" requiredLevel="4" checksum="6ba80e0d" registered="ID_INTERNAL_CLASS_FEATURE_ASI_4_SORCERER">
+							<element type="Ability Score Improvement" name="Ability Score Increase (SORCERER 4)" requiredLevel="4" number="1" checksum="fb3ea0dd" registered="ID_INTERNAL_ASI_CHARISMA" />
+							<element type="Ability Score Improvement" name="Ability Score Increase (SORCERER 4)" requiredLevel="4" number="2" checksum="6237f167" registered="ID_INTERNAL_ASI_CHARISMA" />
+						</element>
+					</element>
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_COS_BACKGROUND_HAUNTED_ONE">
 					<element type="Proficiency" name="Skill Proficiency (Haunted One)" requiredLevel="1" number="1" checksum="30603ee4" registered="ID_PROFICIENCY_SKILL_SURVIVAL" />
 					<element type="Proficiency" name="Skill Proficiency (Haunted One)" requiredLevel="1" number="2" checksum="a9696f5e" registered="ID_PROFICIENCY_SKILL_ARCANA" />
 					<element type="Language" name="Language (Haunted One)" requiredLevel="1" checksum="2bd623ac" registered="ID_LANGUAGE_DEEP_SPEECH" />
+					<element type="Language" name="Language (Haunted One)" requiredLevel="1" checksum="2bd623ac" registered="ID_LANGUAGE_ABYSSAL" />
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="f81ad3bc" registered="ID_WOCT_OOTA_BACKGROUND_FEATURE_UNDERDARK_EXPERIENCE">
 						<element type="Grants" name="Optional Background Feature" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 					</element>
@@ -268,6 +281,7 @@
 				</element>
 				<element type="Grants" name="Multiclassing (Level 4)" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
 			</element>
+			<element type="Level" name="5" id="ID_LEVEL_5" />
 			<element type="Item" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA">
 				<element type="Ability Score Improvement" name="Charisma" id="ID_INTERNAL_ASI_CHARISMA" />
 			</element>
@@ -503,7 +517,7 @@
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="145">
+		<sum element-count="154">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -528,6 +542,7 @@
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
 			<element type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" />
 			<element type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
+			<element type="Spell" id="ID_PHB_SPELL_DARKNESS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Spell" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
@@ -539,7 +554,6 @@
 			<element type="Background" id="ID_COS_BACKGROUND_HAUNTED_ONE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
-			<element type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
 			<element type="Background Feature" id="ID_WOCT_OOTA_BACKGROUND_FEATURE_UNDERDARK_EXPERIENCE" />
 			<element type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_GOOD" />
@@ -551,6 +565,7 @@
 			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
 			<element type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
 			<element type="Spell" id="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
+			<element type="Spell" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" />
 			<element type="Spell" id="ID_PHB_SPELL_HEX" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
@@ -558,7 +573,13 @@
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Spell" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
+			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
+			<element type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
+			<element type="Language" id="ID_LANGUAGE_ABYSSAL" />
+			<element type="Spell" id="ID_XGTE_SPELL_INFESTATION" />
+			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -573,6 +594,7 @@
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
 			<element type="Archetype" id="ID_WOTC_UA20190905_ARCHETYPE_ABERRANT_MIND" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_INVASIVE_THOUGHTS" />
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_PSIONIC_SPELLS" />
@@ -583,6 +605,7 @@
 			<element type="Archetype Feature" id="ID_WOTC_UA20190905_ARCHETYPE_FEATURE_ABERRANT_MIND_WARPED_BEING" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_QUICKEND_SPELL" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_4_SORCERER" />
 			<element type="Multiclass" id="ID_WOTC_PHB_MULTICLASS_WARLOCK" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
@@ -650,10 +673,11 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
 			<element type="Proficiency" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
 		</sum>
-		<magic multiclass="true" level="3">
-			<spellcasting name="Sorcerer" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
-				<slots s1="4" s2="2" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+		<magic multiclass="true" level="4">
+			<spellcasting name="Sorcerer" ability="Charisma" attack="8" dc="16" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
+				<slots s1="4" s2="3" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
+					<spell name="Infestation" level="0" id="ID_XGTE_SPELL_INFESTATION" />
 					<spell name="Mind Sliver" level="0" id="ID_WOTC_UA20200414_SPELL_MIND_SLIVER" />
 					<spell name="Prestidigitation" level="0" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 					<spell name="Ray of Frost" level="0" id="ID_PHB_SPELL_RAY_OF_FROST" />
@@ -668,9 +692,10 @@
 					<spell name="Calm Emotions" level="2" id="ID_PHB_SPELL_CALM_EMOTIONS" known="true" />
 					<spell name="Detect Thoughts" level="2" id="ID_PHB_SPELL_DETECT_THOUGHTS" known="true" />
 					<spell name="Mind Thrust" level="2" id="ID_WOTC_UA20200414_SPELL_MIND_THRUST" known="true" />
+					<spell name="Misty Step" level="2" id="ID_PHB_SPELL_MISTY_STEP" known="true" />
 				</spells>
 			</spellcasting>
-			<spellcasting name="Warlock" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+			<spellcasting name="Warlock" ability="Charisma" attack="8" dc="16" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 				<slots s1="1" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Eldritch Blast" level="0" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
@@ -684,6 +709,7 @@
 			<additional>
 				<spell name="Dancing Lights" level="0" id="ID_PHB_SPELL_DANCING_LIGHTS" source="Drow Magic" />
 				<spell name="Faerie Fire" level="1" id="ID_PHB_SPELL_FAERIE_FIRE" source="Drow Magic" />
+				<spell name="Darkness" level="2" id="ID_PHB_SPELL_DARKNESS" source="Drow Magic" />
 			</additional>
 		</magic>
 	</build>
