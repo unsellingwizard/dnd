@@ -14,12 +14,16 @@ Then everything went dark, when I woke up I was in Mirabar. I may not truly ever
 
 In the hopes of figuring out what in the world happened to me down in that alcove I asked around for a college of magic and manged to find of one down in waterdeep though from what I hear I wont have the money to afford it. Lots of traveling latter and I managed to find the college that the people were talkling about, As I suspected thought there is no way that i can afford that college though I did manage to get use of their library they even offered me a job.
 
-## Durring my adventure 
+## Durring my adventure
 
-I rembered something the other night, it was after I touched the crystal I now wear I was in a terible pain my head hurt more then anything I've ever felt. Then in a opening in the wall and someone in a cloak with glowing yellow eyes then there is a metal table shaped for a person then people standing around it and screaming. Then I'm running back to the shit hole that a lived in, then buring lots of buring. 
+I decided to venture out from my little library, I need more money and I think I have found the perfect way to do it, Adventuring I found a poster that says I just need to go to this village by the name of Candlewood and retrive a item for them and they'll give me 300 gold peices wich while I still dont quite understand how much tings should be worth is plenty enough for me.
+
+Small problem came up, I cant find this candlewood place on any map, the best I could do is fine another village close to where the poster says Candlewood is located.
+
+I rembered something the other night, it was after I touched the crystal I now wear I was in a terible pain my head hurt more then anything I've ever felt. Then in a opening in the wall and someone in a cloak with glowing yellow eyes then there is a metal table shaped for a person then people standing around it and screaming. Then I'm running back to the shit hole that a lived in, then buring lots of buring.
 
 ### Things I dont know where elese it would go
 
 This journal is the same one that I have been writing in since I first started reading as a child, it has all the notes that I've ever taken on magic.
 Whenever I cast my magic my new tattoos move and start glowing along with my eyes.
-Multiclassed to warloc becase in order to seek a higher understanding of magic
+Became a warloc because the Wander need strengh and I fit the bill and in exchange I will get knowlage of my powers
