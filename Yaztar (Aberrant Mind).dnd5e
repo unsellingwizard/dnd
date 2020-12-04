@@ -255,7 +255,7 @@
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="1" checksum="1cce901d" registered="ID_PHB_SPELL_ELDRITCH_BLAST" />
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="2" checksum="6a2ba920" registered="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_HEX" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="2" checksum="05a06989" registered="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Solo" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" />
 					</element>
@@ -560,6 +560,8 @@
 			<element type="Background" id="ID_COS_BACKGROUND_HAUNTED_ONE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<element type="Language" id="ID_LANGUAGE_ABYSSAL" />
+			<element type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
 			<element type="Background Feature" id="ID_WOCT_OOTA_BACKGROUND_FEATURE_UNDERDARK_EXPERIENCE" />
 			<element type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_GOOD" />
@@ -577,17 +579,15 @@
 			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Language" id="ID_LANGUAGE_ABYSSAL" />
+			<element type="Level" id="ID_LEVEL_6" />
+			<element type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
-			<element type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
-			<element type="Level" id="ID_LEVEL_6" />
-			<element type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
-			<element type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+			<element type="Spell" id="ID_PHB_SPELL_HEX" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -714,8 +714,8 @@
 				</cantrips>
 				<spells>
 					<spell name="Armor of Agathys" level="1" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" known="true" />
-					<spell name="Comprehend Languages" level="1" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" known="true" />
 					<spell name="Healing Elixir" level="1" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" known="true" />
+					<spell name="Hex" level="1" id="ID_PHB_SPELL_HEX" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>
