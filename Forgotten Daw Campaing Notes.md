@@ -33,3 +33,7 @@ There is a cave of goblins that have a valuble item that was inteded for the gol
 #### Golden Councle
 
 - Group of golden dragons that give guidence to all metalic dragons
+
+
+
+Someone called Green Jaw wants the dragon stones 
