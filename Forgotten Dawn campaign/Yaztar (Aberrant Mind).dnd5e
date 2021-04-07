@@ -10,11 +10,11 @@
 	<display-properties favorite="true">
 		<name>Yaztar (Aberrent Mind)</name>
 		<race>Half-Elf</race>
-		<class>Sorcerer (4) / Warlock (2)</class>
+		<class>Sorcerer (4) / Warlock (3)</class>
 		<archetype>
 		</archetype>
 		<background>Haunted One</background>
-		<level>6</level>
+		<level>7</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,7 +28,7 @@
 			<name>Yaztar (Aberrent Mind)</name>
 			<gender>Male</gender>
 			<player-name>Lux</player-name>
-			<experience>14000</experience>
+			<experience>23000</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
 				<attack identifier="9acfa37d-f799-4672-9846-420376247c4a" name="Quarterstaff" range="5 ft" attack="+4 vs AC" damage="1d6+1 bludgeoning" displayed="true" ability="Strength">
@@ -99,7 +99,7 @@
 			<wisdom>12</wisdom>
 			<charisma>14</charisma>
 		</abilities>
-		<elements level-count="6" registered-count="55">
+		<elements level-count="7" registered-count="58">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -257,6 +257,7 @@
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_HEX" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="2" checksum="05a06989" registered="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="3" checksum="2f8851eb" registered="ID_AEYANA_ATLAS_SPELL_ULTRAVIOLET_PULSE" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Solo" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" />
 					</element>
 					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
@@ -283,11 +284,15 @@
 						<element type="Class Feature" name="Eldritch Invocation (Level 2)" requiredLevel="2" number="1" checksum="002d5a0f" registered="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST" />
 						<element type="Class Feature" name="Eldritch Invocation (Level 2)" requiredLevel="2" number="2" checksum="99240bb5" registered="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNEKEEPER" />
 					</element>
+					<element type="Class Feature" name="Pact Boon" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON">
+						<element type="Class Feature" name="Pact Boon" requiredLevel="3" checksum="08925343" registered="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE" />
+					</element>
 				</element>
 				<element type="Grants" name="Multiclassing (Level 4)" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
 			</element>
 			<element type="Level" name="5" id="ID_LEVEL_5" />
 			<element type="Level" name="6" id="ID_LEVEL_6" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_WARLOCK" />
+			<element type="Level" name="7" id="ID_LEVEL_7" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_WARLOCK" />
 			<element type="Item" name="Additional Ability Score Improvement, Charisma" id="ID_PHB_INTERNAL_ITEM_PROXY_ASI_CHARISMA">
 				<element type="Ability Score Improvement" name="Charisma" id="ID_INTERNAL_ASI_CHARISMA" />
 			</element>
@@ -551,7 +556,7 @@
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="161">
+		<sum element-count="165">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -618,6 +623,8 @@
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_HEADBAND_OF_INTELLECT" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_DISPLACEMENT" />
+			<element type="Level" id="ID_LEVEL_7" />
+			<element type="Spell" id="ID_AEYANA_ATLAS_SPELL_ULTRAVIOLET_PULSE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_SORCERER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
@@ -667,6 +674,7 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_UNARMED_STRIKE" />
 			<element type="Proficiency" id="ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" />
 			<element type="Archetype" id="ID_WOTC_XGTE_ARCHETYPE_HEXBLADE" />
 			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_EXPANDED_SPELL_LIST" />
 			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEXBLADES_CURSE" />
@@ -713,6 +721,7 @@
 			<element type="Proficiency" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNEKEEPER" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE" />
 		</sum>
 		<magic multiclass="true" level="4">
 			<spellcasting name="Sorcerer" ability="Charisma" attack="8" dc="16" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
@@ -737,7 +746,7 @@
 				</spells>
 			</spellcasting>
 			<spellcasting name="Warlock" ability="Charisma" attack="8" dc="16" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
-				<slots s1="2" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+				<slots s1="0" s2="2" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Eldritch Blast" level="0" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
 					<spell name="Shadowthorn" level="0" id="ID_GFP_COFSA_SPELL_SHADOWTHORN" />
@@ -746,6 +755,7 @@
 					<spell name="Armor of Agathys" level="1" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" known="true" />
 					<spell name="Healing Elixir" level="1" id="ID_WOTC_UA20170403_SPELL_HEALING_ELIXIR" known="true" />
 					<spell name="Hex" level="1" id="ID_PHB_SPELL_HEX" known="true" />
+					<spell name="Ultraviolet Pulse" level="2" id="ID_AEYANA_ATLAS_SPELL_ULTRAVIOLET_PULSE" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>
